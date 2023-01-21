@@ -1,0 +1,24 @@
+package com.company;
+import java.util.Scanner;
+
+public class Exercise1 {
+    public static void main(String[] args) {
+        System.out.println("Exam Prcantage Calculate ");
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Enter English number");
+        int a = sc.nextInt();
+        System.out.println("Enter Hindi number");
+        int b = sc.nextInt();
+        System.out.println("Enter Maths number");
+        int c = sc.nextInt();
+        System.out.println("Enter Science number");
+        int d = sc.nextInt();
+        System.out.println("Enter Social Science number");
+        int e = sc.nextInt();
+        int sum = a+b+c+d+e;
+        int per = sum/5;
+        System.out.println("Overall Marks is");
+        System.out.print(per);
+        System.out.println("precent");
+    }
+}
